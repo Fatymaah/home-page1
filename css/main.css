@@ -1,0 +1,37 @@
+body{
+    background-image: url(../img/background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+
+}
+header{
+}
+.nav-nav{
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+	
+}
+.nav-nav li{
+	display: inline-block;
+}
+.nav-nav a{
+color: #fff;
+text-decoration: none;
+font-family: "Roboto",sans-serif;
+font-size: 15px;
+padding: 5px 20px;
+}
+.nav-nav li.active a{
+	border: 1px solid #fff;
+}
+.nav-nav li a:hover{
+	border: 1px solid #fff;
+}
+.logo img{
+	width: 50px;
+	height: auto;
+	float: left;
+}
